@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libros</title>
+</head>
+<body>
+    <!--encabezado de la pagina-->
+    <header>
+        <h1> Libros mas famosos</h1>
+    </header>
+    <!--contenido principal de la página-->
+    <main>
+        <!--descripcion de los libros mas famosos-->
+        <section>
+            <h2>Conoce un poco sobre el tema</h2>
+            <p>Los libros más populares del momento abarcan distintos géneros, desde el misterio hasta la novela histórica, conectando con diversos gustos.
+                Obras como La asistenta o Hamnet destacan por sus historias envolventes y emotivas.
+                En conjunto, estas lecturas entretienen y también invitan a reflexionar sobre la vida y las relaciones humanas.
+                </p>
+
+                <img src="./64562ef1ef119336dad09c3202bdc021.webp" alt="imagen libro hamnet" width="100px">
+        </section>
+        <section>
+            <!--generos mas leidos-->
+            <h2>Géneros mas leidos actualmente</h2>
+            <ol>
+                <li>Romance</li>
+                <li>Misterio / novela negra / thriller</li>
+                <li>Fantasía y ciencia ficción</li>
+                <li>Ficción contemporánea</li>
+                <li>Autoayuda y desarrollo personal</li>
+                <li>No ficción</li>
+            </ol>
+        </section>
+        <section>
+            <!--nombres de libros mas famosos-->
+            <h2>Libros mas leídos y sus géneros</h2>
+            <ul>
+                <li>Romance</li>
+                <ul>
+                    <li>Duele querer - Daniel Cowers</li>
+                </ul>
+                <li>Misterio / thriller</li>
+                <ul>
+                    <li>El libro negro de las horas - Eva García Sáenz de Urturi</li>
+                </ul>
+                <li>Fantasía</li>
+                <ul>
+                    <li>Alas de ónix - Rebecca Yarros</li>
+                </ul>
+                <li>Ciencia ficción / distopía</li>
+                <ul>
+                    <li>Sunrise on the Reaping - Suzanne Collins</li>
+                </ul>
+                <li>Ficción contemporánea</li>
+                <ul>
+                    <li>Comerás flores - Lucía Sollas</li>
+                </ul>
+                <li>Autoayuda</li>
+                <ul>
+                    <li>Hábitos atómicos - James Clear</li>
+                </ul>
+                <li>No ficción</li>
+                <ul>
+                    <li>Everything Is Tuberculosis - John Green</li>
+                </ul>
+            </ul>
+        </section>
+        <section>
+            <!--tabla-->
+            <h2>Fechas de  publicación</h2>
+            <table>
+                <!---fila de los titulos-->
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Nombre del libro</th>
+                        <th>Género</th>
+                    </tr>
+                </thead>
+                <!--informacion de la tabla-->
+                <tbody>
+                    <!--informacion del primer libro-->
+                    <tr>
+                        <td rowspan="2">2022</td>
+                        <td>El libro negro de las horas</td>
+                        <td>Misterio / thriller</td>
+                    </tr>
+                    <!--informacion del segundo libro-->
+                    <tr>
+                        <td>La asistenta</td>
+                        <td>thriller psicológico</td>
+                        
+                    </tr>
+                    <!--información del tercer libro-->
+                    <tr>
+                        <td>21 de enero de 2025</td>
+                        <td>Alas de ónix</td>
+                        <td>Fantasía</td>
+                    </tr>
+                    <!--información del cuarto libro-->
+                    <tr>
+                        <td>18 de marzo de 2025</td>
+                        <td>Sunrise on the Reaping</td>
+                        <td>Ciencia ficción</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--seccion formulario-->
+        <section>
+            <h2>Vota por tu género favorito</h2>
+            <form action="#">
+                <!--nombre-->
+                <div>
+                    <label for="name">Escribe tu nombre</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <!--correo-->
+                <div>
+                    <label for="email"> Correo electronico</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <!--votacion-->
+                <div>
+                    <label for="vota"> ¿Cúal es tu favorito?</label>
+                    <select name="vota" id="vota">
+                        <option value="Romance"> Romance</option>
+                        <option value="Misterio">Misterio</option>
+                        <option value="Fantasía">Fantasía</option>
+                        <option value="Ciencia Ficción">Ciencia Ficción</option>
+                        <option value="Ficción contemporánea">Ficción contemporánea</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </div>
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
